@@ -1,0 +1,104 @@
+         body {
+            background-color: powderblue;
+            margin:0;
+        }
+        .navbar{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            border-width: 2;
+            border: 10px;
+            border-color: black;
+        }
+        .navbar{
+            font-size: 18px;
+            background-image: linear-gradient(180deg, #113044 0%, #092c0f   100%);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            padding-bottom: 10px;
+        }
+        .main-nav {
+            list-style-type: none;
+        }
+        .nav-links,
+        .logo {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 0;
+            height: 70px;
+            align-items: center;
+            position: relative;
+        }
+        .nav-content{
+            width: 960px;
+            height: 70px;
+            border: 1px rgb(10, 8, 8) solid;
+            position: relative;
+            margin: 0 auto;
+        }
+        .nav-left{
+            width:40%;
+            float: left;
+            height:100%;
+        }
+        .logo-button{
+            font-size: 18px;
+            text-align: center;
+            float:left;
+            height: 100%;
+            width:125px;
+            background:rgb(0, 78, 83);
+        }
+        .nav-right{
+            width:40%;
+            float:right;
+            height:100%;
+        }
+        .main-nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            height: 100%;
+        }
+        .nav-links {
+            margin-left: 60px;
+        }
+        
+        .navbar-toggle{
+            display: none;
+        }
+        .logo:hover,
+        .nav-links:hover{
+            color: rgba(255, 255, 255, 1);
+        }
+        #main-content{
+            width: 960px;
+            border: 1px solid #333;
+            margin: 0 auto;
+            background:rgb(184, 182, 179);
+            clear:both;
+            overflow:auto;
+            position: relative;
+        }
+        #about-photo{
+            float:left;
+            border: 1px solid #fff;
+            box-shadow:1px #092c0f;
+        }
+        #aboutme-text{
+            float:right;
+            position:relative;
+            padding-right: 25px;
+        }
+        .contact-info{
+            position:absolute;
+            bottom: 0px;
+            left: 50%;
+            margin-left: -150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
