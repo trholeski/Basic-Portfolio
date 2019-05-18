@@ -3,50 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <title>This is a story of a man.</title>
-    <!--<style>
+    <style>
+        body {
+            background-color: powderblue;
+            }
         .navbar{
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-        border}
-    </style>-->
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            border-width: 2;
+            border: 10px;
+            border-color: black;
+            }
+        .navbar{
+            font-size: 18px;
+            background-image: linear-gradient(180deg, #113044 0%, #092c0f   100%);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            padding-bottom: 10px;
+            }
+        .main-nav {
+            list-style-type: none;
+            }
+        .nav-links,
+        .logo {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.7);
+            }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 0;
+            height: 70px;
+            align-items: center;
+            }
+        .nav-content{
+            margin:0 auto;
+            width: 960px;
+            height: 70px;
+            border: 1px solid rgb(124, 100, 100);
+            }
+        .nav-left{
+            width:40%;
+            float: left;
+            height:100%;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            vertical-align: middle;
+        }
+        .nav-right{
+            width:40%;
+            float:right;
+            height:100%;
+        }
+        .main-nav{
+            display: flex;
+            margin-right: 30px;
+            flex-direction: row;
+            justify-content: flex-end;
+            }
+        .nav-links {
+            margin-left: 60px;
+            }
+        .logo{
+            margin-left: 30px;
+            }
+        .navbar-toggle{
+            display: none;
+            }
+        .logo:hover,
+        .nav-links:hover{
+            color: rgba(255, 255, 255, 1);
+            }
+        .main-content{
+            width: 960px;
+            border: 1px solid #333;
+            margin: 0 auto;
+            background:rgb(184, 182, 179);
+            
+        }
+    </style>
 </head>
 
 <body>
     <nav class="navbar">
-        <a href="#" class="logo">logo</a>
-        <ul class="main-nav" id="js-menu">
-            <li>
-                <a href="#" class="nav-links">About</a>
-            </li>
-            <li>
-                <a href="#" class="nav-links">Contact</a>
-            </li>
-            <li>
-                <a href="#" class="nav-links">Portfolio</a>
-            </li>
-
-        </ul> 
+        <div class="nav-content">
+           <div class="nav-left"> 
+               <a href="#" class="logo">logo</a>
+           </div>
+            <div class="nav-right">
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="#" class="nav-links">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-links">Portfolio</a>
+                    </li>
+                </ul> 
+            </div>
+        </div>
     </nav>
-    <h1 class="site-title">This is a story of a man</h1>
-    <h2> Tim Holeski</h2>
-    <img src="https://www.fillmurray.com/200/300" alt="me">
-    <br>
+    <div class="main-content">
+        <h1 class="site-title">This is a story of a man</h1>
+        <h2> Tim Holeski</h2>
+        <img src="https://www.fillmurray.com/200/300" alt="me">
+        <br>
 
-    <table>Things began
-        ...and now things are happening.
-        Hopefully, things will continue to happen.
-    </table>
-    <h2>Contact Info</h2>
-    <ul>
-        <li>
-            Email: <a href="trholeski@gmail.com">trholeski@gmail.com</a>
-        </li>
-        <li>
-            Git Hub: <a href="https://github.com/trholeski/Basic-Portfolio">Git Hub</a>
-        </li>
-        <li>
-            Portfolio: <a href="www.timholeski.com">portfolio</a>
-        </li>
-    </ul>
+        <table>Things began
+            ...and now things are happening.
+            Hopefully, things will continue to happen.
+        </table>
+        <h2>Contact Info</h2>
+        <ul>
+            <li><strong>
+                Email: <a href="trholeski@gmail.com">trholeski@gmail.com</a>
+            </li>
+            <li>
+                Git Hub: <a href="https://github.com/trholeski/Basic-Portfolio">Git Hub</a>
+            </li>
+            <li>
+                Portfolio: <a href="www.timholeski.com">portfolio</a>
+            </li>
+        </ul>
+    </div>
 </body>
