@@ -35,7 +35,7 @@
         .nav-content{
             width: 960px;
             height: 70px;
-            border: 1px rgb(10, 8, 8) solid;
+            /* border: 1px rgb(10, 8, 8) solid; */
             position: relative;
             margin: 0 auto;
         }
@@ -45,11 +45,15 @@
             height:100%;
         }
         .logo-button{
+            text-decoration: none;
             font-size: 18px;
             text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             float:left;
             height: 100%;
-            width:125px;
+            width:150px;
             background:rgb(0, 78, 83);
         }
         .nav-right{
@@ -70,9 +74,10 @@
         .navbar-toggle{
             display: none;
         }
-        .logo:hover,
+        .logo-button:hover,
         .nav-links:hover{
             color: rgba(255, 255, 255, 1);
+            background: rgb(85, 73, 73);
         }
         #main-content{
             width: 960px;
@@ -82,6 +87,8 @@
             clear:both;
             overflow:auto;
             position: relative;
+            height: 900px;
+            margin-top: 10px;
         }
         #about-photo{
             float:left;
@@ -90,6 +97,8 @@
         }
         #aboutme-text{
             float:right;
+            height: 100px;
+            width: 700px;
             position:relative;
             padding-right: 25px;
         }
@@ -101,4 +110,53 @@
             display: flex;
             flex-direction: row;
             justify-content: flex-end;
+        }
+        .portfolio-table{
+            margin: 0 auto;
+            display: table;
+        }
+        .portfolio-rows{
+            display:table-row;
+        }
+        .portfolio-cells{
+            display:table-cell;
+            padding: 10px;
+        }
+        hr {
+            border: none;
+            border-top: 3px double #333;
+            color: #333;
+            overflow: visible;
+            text-align: center;
+            height: 5px;
+            width:90%;
+        }
+        /* hr:after {
+            background: transparent;
+            content: '§';
+            padding: 0 4px;
+            position: relative;
+            top: -13px;
+        } */
+        .site-title{
+            margin-left: 50px;
+        }
+        .contact-form{
+            margin: 0 auto; 
+            width: 400px;
+            padding:1em;
+            border: 1px solid #ccc;
+        }
+        label {
+            display: inline-block;
+            width: 90px;
+            text-align: right;
+        }
+        input, textarea {
+            font: 1em, sans-serif;
+            width: 300px;
+            
+            box-sizing: border-box;
+            border: 1px solid #999;
+
         }
