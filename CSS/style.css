@@ -146,11 +146,13 @@
         .navbar-toggle{
             display: none;
         }
-        .logo-button:hover,
+        .logo-button:hover{
+            text-decoration: none;
+            background: #6dd6d1;
+        }
         .nav-links:hover{
             text-decoration: none;
-            color: rgba(255, 255, 255, 1);
-            background: #6dd6d1;
+            color: rgb(0, 0, 0);
         }
         .logo-button:visited{
             color: #ffffff;
