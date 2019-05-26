@@ -1,6 +1,6 @@
         /* Site-wide (excluding nav and footer) CSS +++++++++++++++++++++++++++++++++++++++++++++++++*/
         body {
-            background: url(file:///Users/timholeski/Basic-Portfolio/assets/images/fishnets-and-hearts.png);
+            background: url('../assets/images/fishnets-and-hearts.png');
             margin:0;
         }
         p{
