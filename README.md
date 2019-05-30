@@ -9,4 +9,4 @@ It includes three primary pages:
 The general layout of the site includes a navigation bar as well as a "sticky footer" that are positioned at the top and bottom of each page, respectively.
 
 Comments or questions?
-Please reach me at trholeski@gmail.com, if you have comments or concerns about website.
+Please reach me at trholeski@gmail.com, if you have comments or concerns about this website.
